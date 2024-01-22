@@ -11,8 +11,6 @@ This is a solution to the [Single price grid component challenge on Frontend Men
 - [My process](#my-process)
   - [Built with](#built-with)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -24,12 +22,12 @@ Users should be able to:
 
 ### Screenshot
 
-![screenshot](./screenshot.pnßg)
+![screenshot](./screenshot.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/solvman/single-price-grid-component-master](https://github.com/solvman/single-price-grid-component-master)
+- Live Site URL: [https://meek-khapse-4bfdba.netlify.app/](https://meek-khapse-4bfdba.netlify.app/)
 
 ## My process
 
