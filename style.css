@@ -51,6 +51,7 @@ body {
   margin: 5rem auto;
   width: 83vw;
   min-width: 311px;
+  max-width: 635px;
   overflow: hidden;
 }
 
@@ -124,11 +125,19 @@ section {
   font-weight: var(--font-weight-bold);
   letter-spacing: -0.2px;
   border: none;
+  color: var(--color-neutral-100);
   background-color: var(--color-primary-500);
   border-radius: 5px;
   box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.1);
   width: 100%;
   padding: 0.9375rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.button:is(:hover, :focus) {
+  box-shadow: none;
+  opacity: 0.9;
 }
 
 .why {
@@ -156,4 +165,36 @@ section {
   font-size: var(--font-size-sm);
   line-height: 1.42857;
   opacity: 0.75;
+}
+
+@media (min-width: 500px) {
+  :root {
+    --font-size-xl: 1.5rem;
+  }
+
+  .card {
+    --padding: 2.5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .cta {
+    grid-column: 1 / 3;
+  }
+
+  .cta__title {
+    margin-top: 0.1rem;
+    line-height: 1;
+    letter-spacing: -0.3px;
+  }
+  .cta__accent {
+    font-size: var(--font-size-lg);
+    margin-bottom: 0.5rem;
+  }
+  .cta__body {
+    font-size: var(--font-size-md);
+  }
+  .why__title {
+    font-size: var(--font-size-lg);
+  }
 }
