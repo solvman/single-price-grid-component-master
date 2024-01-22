@@ -172,7 +172,14 @@ section {
     --font-size-xl: 1.5rem;
   }
 
+  body {
+    display: grid;
+    place-content: center;
+    height: 100vh;
+  }
+
   .card {
+    margin: 0;
     --padding: 2.5rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
